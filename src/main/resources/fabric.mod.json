@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "itemshadowingreborn",
+  "version": "${version}",
+  "name": "itemshadowingreborn",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/KathleenCome/ItemShadowingReborn"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+    ]
+  },
+  "mixins": [
+    "itemshadowingreborn.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  }
+}
